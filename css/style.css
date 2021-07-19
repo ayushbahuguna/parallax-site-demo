@@ -67,3 +67,18 @@ body, html {
 .ptext .border.trans {
     background-color: transparent;
 }
+
+@media(max-width : 780px) {
+    .ptext {
+        font-size: 20px;
+    }
+
+    .section {
+        text-align: center;
+        padding: 50px 35px;
+    }
+
+    .section p {
+        text-align: justify;
+    }
+}
